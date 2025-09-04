@@ -4,7 +4,7 @@
   "description": "A simple project in Gatsby",
   "version": "0.1.0",
   "dependencies": {
-    "@demo/shared": "file:../shared",
+    "@demo/shared": "workspace:^",
     "gatsby": "^4.24.7",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
