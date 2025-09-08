@@ -2,15 +2,19 @@
   "name": "@demo/project",
   "private": true,
   "description": "A simple project in Gatsby",
-  "version": "0.1.0",
+  "engines": {
+    "node": "18.19.1",
+    "yarn": "10.2.4"
+  },
+  "packageManager": "yarn@4.1.1",
   "dependencies": {
-    "@demo/shared": "*",
-    "gatsby": "^4.24.7",
-    "gatsby-plugin-image": "^2.24.0",
-    "gatsby-plugin-manifest": "^4.24.0",
-    "gatsby-plugin-sharp": "^4.24.0",
-    "gatsby-source-filesystem": "^4.24.0",
-    "gatsby-transformer-sharp": "^4.24.0",
+    "@demo/shared": "workspace:^",
+    "gatsby": "4.25.9",
+    "gatsby-plugin-image": "2.25.0",
+    "gatsby-plugin-manifest": "4.25.0",
+    "gatsby-plugin-sharp": "4.25.1",
+    "gatsby-source-filesystem": "4.25.0",
+    "gatsby-transformer-sharp": "4.25.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
