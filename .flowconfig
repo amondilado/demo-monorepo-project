@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/.*
+.*/public/.*
+.*/\.cache/.*
+.*\.test\.js
+.*/test/.*
+
+[options]
+module.name_mapper='^@demo\/shared\/\(.*\)$' -> './../shared/src/\1'

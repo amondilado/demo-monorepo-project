@@ -1,7 +1,13 @@
+// @flow
 import * as React from "react"
 import { Link } from "@demo/shared/dist/components"
 
-const Header = ({ siteTitle }) => (
+type Props = {
+  siteTitle?: string,
+  id: Boolean,
+}
+
+const Header = ({ id, siteTitle }: Props) => (
   <header
     style={{
       margin: `0 auto`,
@@ -18,7 +24,7 @@ const Header = ({ siteTitle }) => (
 )
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: "",
 }
 
 export default Header

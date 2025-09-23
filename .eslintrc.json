@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "parser": "@babel/eslint-parser",
+  "plugins": ["flowtype"],
+  "extends": ["plugin:flowtype/recommended"],
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-flow"]
+    }
+  },
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": "off"
+  }
+}
